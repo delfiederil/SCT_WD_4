@@ -1,5 +1,6 @@
 **🎯 SCT_WD_4 – To-Do Web Application** ❄️
-SkillCraft Technology Internship Winter Edition
+
+**SkillCraft Technology Internship Winter Edition**
 
 As the winter chill sets in, so does the drive to stay productive! SCT_WD_4 is all about creating a basic To-Do Web App that empowers users to add, organize, and maintain tasks with ease—no matter the season.
 
@@ -20,7 +21,7 @@ Intuitive, clean, and responsive user experience
 **🧩 Tech Stack:**
 HTML - CSS - JavaScript
 
-⛄ What I Learned:
+**⛄ What I Learned:****
 
 Handling CRUD (Create, Read, Update, Delete) operations in web applications
 

@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  background: #eeeaf6;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background: #fff;
+  padding: 30px 35px;
+  border-radius: 18px;
+  box-shadow: 0 6px 30px #936fd933;
+  text-align: center;
+  min-width: 340px;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 21px;
+  color: #936fd9;
+  font-weight: 800;
+}
+#todoForm {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 21px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#taskInput, #dateInput, #timeInput {
+  padding: 9px;
+  font-size: 1rem;
+  border: 1.5px solid #936fd9;
+  border-radius: 7px;
+  outline: none;
+}
+#taskInput {
+  width: 160px;
+}
+#todoForm button {
+  background: #936fd9;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+#todoForm button:hover {
+  background: #6849a6;
+}
+#todoList {
+  list-style: none;
+  padding: 0;
+}
+.todo-item {
+  background: #eeeaf6;
+  margin-bottom: 11px;
+  padding: 13px;
+  border-radius: 9px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.todo-text.completed {
+  text-decoration: line-through;
+  color: #936fd9;
+}
+.todo-actions button {
+  margin-left: 9px;
+  background: none;
+  border: none;
+  font-size: 1.12rem;
+  color: #936fd9;
+  cursor: pointer;
+  padding: 3px 8px;
+  border-radius: 5px;
+  transition: background 0.15s;
+}
+.todo-actions button:hover {
+  background: #ddd3ec;
+}
+.todo-details {
+  font-size: 0.9rem;
+  color: #6849a6;
+  margin-left: 9px;
+}

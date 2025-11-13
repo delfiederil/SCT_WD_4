@@ -21,7 +21,7 @@ Intuitive, clean, and responsive user experience
 **🧩 Tech Stack:**
 HTML - CSS - JavaScript
 
-**⛄ What I Learned:****
+**⛄ What I Learned:**
 
 Handling CRUD (Create, Read, Update, Delete) operations in web applications
 
